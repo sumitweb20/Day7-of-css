@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        width: 800px;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+    }
+    .box{
+        width: 800px;
+        height: 400px;
+        margin:50px auto;
+        border: 2px solid green;
+        position: relative;
+   }  
+   img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 300px;
+        transition: 1s;
+        top: 0px;
+   }
+   .box:hover img:nth-child(2){
+     left: 500px;
+   }
+   .box:hover img:nth-child(3){
+     left: 100px;
+   }
+   .box:hover img:nth-child(4){
+     top: 200px;
+   }
+
+</style>
+<body>
+    <h1>Practice of position see effect on hover</h1>
+    <div class="box">
+        <img src="img/compact-size-icon-vector-illustration-260nw-489811306.webp">
+        <img src="img/images (1).jpeg">
+        <img src="img/pngtree-play-button-small-icon-download-image_1183461.jpg">
+        <img src="img/png-transparent-black-small-apple-logo-logo-material-apple-logo-black-thumbnail.png">
+    </div>
+</body>
+</html>
